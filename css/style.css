@@ -14,6 +14,20 @@
     background-color: blue;
     min-height: 2.1875rem;
 }
+.debug #ms-portfolio .col-2,.col-1 {
+    border:2px dashed;
+    background-color: blue;
+    min-height: 2.1875rem;
+}
+.debug #ms-portfolio .col-12,.col-sm-6,.col-lg-4{
+    border:2px dashed;
+    background-color: blue;
+    min-height: 22.5rem;
+}
+.debug .ms-img-card{
+    background-color: green;
+    height: 100%;
+}
 /* HEADER */
 header{
     background-color: var(--ms-primary-color);
