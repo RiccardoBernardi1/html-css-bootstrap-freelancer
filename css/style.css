@@ -3,6 +3,12 @@
     --ms-primary-color: #2c3e50;
     --ms-secondary-color: #1abc9c;
 }
+/* BUTTONS */
+.ms-btn{
+    background-color: transparent;
+    border-radius: .1875rem;
+    padding: .3125rem .625rem;
+}
 /* HEADER */
 header{
     background-color: var(--ms-primary-color);
@@ -28,10 +34,7 @@ header{
 }
 .ms-btn-primary{
     border: .0625rem solid white;
-    background-color: transparent;
     color: #888888;
-    border-radius: .1875rem;
-    padding: .3125rem .625rem;
     line-height: 0;
 }
 /* sezione HERO */
@@ -72,8 +75,10 @@ header{
     color: white;
     font-weight: bold;
 }
-#ms-about button{
+.ms-secondary-btn{
     max-width: 9.375rem;
+    border: 1px solid white;
+    color:white;
 }
 /* sezione CONTACT */
 .ms-form{
