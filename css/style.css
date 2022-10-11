@@ -33,6 +33,11 @@
     background-color: blue;
     min-height: 2.1875rem;
 }
+.debug #ms-contact .col-2,.col-1 {
+    border:2px dashed;
+    background-color: blue;
+    min-height: 2.1875rem;
+}
 /* HEADER */
 header{
     background-color: var(--ms-primary-color);
@@ -71,4 +76,20 @@ header{
 }
 #ms-about button{
     max-width: 9.375rem;
+}
+/* sezione CONTACT */
+.ms-form{
+    list-style: none; 
+    font-size: 1.5625rem;
+    padding-bottom: 8.75rem;
+    border-bottom: 1px solid;
+    padding-left: 0;
+    margin-left: 0;
+}
+.ms-form a{
+    text-decoration: none;
+    color: inherit;
+}
+.ms-form li:not(:last-child) {
+    border-bottom: 1px solid;
 }
