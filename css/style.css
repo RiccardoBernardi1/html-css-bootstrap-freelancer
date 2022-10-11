@@ -1,0 +1,23 @@
+/* VARIABLES */
+:root{
+    --ms-primary-color: #2c3e50;
+}
+/* HEADER */
+header{
+    background-color: var(--ms-primary-color);
+    color: white;
+}
+.ms-main-nav{
+    list-style: none;  
+    display: flex;  
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.ms-main-nav li{
+    padding: 0 .625rem;
+}
+.ms-main-nav a{
+    text-decoration: none;
+    color: inherit;
+}
