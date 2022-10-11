@@ -28,6 +28,11 @@
     background-color: green;
     height: 100%;
 }
+.debug #ms-about .col-2,.col-1 {
+    border:2px dashed;
+    background-color: blue;
+    min-height: 2.1875rem;
+}
 /* HEADER */
 header{
     background-color: var(--ms-primary-color);
@@ -47,7 +52,7 @@ header{
     text-decoration: none;
     color: inherit;
 }
-/* HERO */
+/* sezione HERO */
 #ms-hero{
     background-color: var(--ms-secondary-color);
     color: white;
@@ -57,4 +62,13 @@ header{
     max-width: 14.375rem;
     margin-left: auto;
     margin-right: auto;
+}
+/* sezione ABOUT */
+#ms-about{
+    background-color: var(--ms-secondary-color);
+    color: white;
+    font-weight: bold;
+}
+#ms-about button{
+    max-width: 9.375rem;
 }
