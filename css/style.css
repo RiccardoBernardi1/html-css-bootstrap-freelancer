@@ -1,6 +1,18 @@
 /* VARIABLES */
 :root{
     --ms-primary-color: #2c3e50;
+    --ms-secondary-color: #1abc9c;
+}
+/* DEBUG */
+.debug .ms-hero-img{
+    border:2px dashed ;
+    background-color: blue;
+    min-height: 16.25rem;
+}
+.debug #ms-hero [class*='col-']{
+    border:2px dashed;
+    background-color: blue;
+    min-height: 2.1875rem;
 }
 /* HEADER */
 header{
@@ -20,4 +32,15 @@ header{
 .ms-main-nav a{
     text-decoration: none;
     color: inherit;
+}
+/* HERO */
+#ms-hero{
+    background-color: var(--ms-secondary-color);
+    color: white;
+    font-weight: bold;
+}
+.ms-hero-img{
+    max-width: 14.375rem;
+    margin-left: auto;
+    margin-right: auto;
 }
