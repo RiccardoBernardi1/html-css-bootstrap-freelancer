@@ -118,6 +118,13 @@ footer{
     text-decoration: none;
     color: var(--ms-secondary-color);
 }
+.ms-social-icon{
+    font-size: 1.6875rem;
+    min-height: 3.4375rem;
+    width: 3.4375rem;
+    border-radius: 50%;
+    border: .125rem solid white;
+}
 /* parte inferiore footer */
 .ms-footerbottom{
     background-color: var(--ms-primary-color);
