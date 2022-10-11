@@ -107,3 +107,7 @@ footer{
     text-decoration: none;
     color: var(--ms-secondary-color);
 }
+/* parte inferiore footer */
+.ms-footerbottom{
+    background-color: var(--ms-primary-color);
+}
