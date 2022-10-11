@@ -38,6 +38,11 @@
     background-color: blue;
     min-height: 2.1875rem;
 }
+.debug .ms-footer-top .col-2.col-sm-3 {
+    border:2px dashed;
+    background-color: blue;
+    min-height: 3.875rem;
+}
 /* HEADER */
 header{
     background-color: var(--ms-primary-color);
@@ -92,4 +97,13 @@ header{
 }
 .ms-form li:not(:last-child) {
     border-bottom: 1px solid;
+}
+/* FOOTER */
+footer{
+    color: white;
+    background-color: #3a546d;
+}
+.ms-footer-top a{
+    text-decoration: none;
+    color: var(--ms-secondary-color);
 }
