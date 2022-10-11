@@ -47,6 +47,10 @@
 header{
     background-color: var(--ms-primary-color);
     color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .ms-main-nav{
     list-style: none;  
@@ -61,6 +65,14 @@ header{
 .ms-main-nav a{
     text-decoration: none;
     color: inherit;
+}
+.ms-btn-primary{
+    border: .0625rem solid white;
+    background-color: transparent;
+    color: #888888;
+    border-radius: .1875rem;
+    padding: .3125rem .625rem;
+    line-height: 0;
 }
 /* sezione HERO */
 #ms-hero{
