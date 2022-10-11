@@ -3,46 +3,6 @@
     --ms-primary-color: #2c3e50;
     --ms-secondary-color: #1abc9c;
 }
-/* DEBUG */
-.debug .ms-hero-img{
-    border:2px dashed ;
-    background-color: blue;
-    min-height: 16.25rem;
-}
-.debug #ms-hero [class*='col-']{
-    border:2px dashed;
-    background-color: blue;
-    min-height: 2.1875rem;
-}
-.debug #ms-portfolio .col-2,.col-1 {
-    border:2px dashed;
-    background-color: blue;
-    min-height: 2.1875rem;
-}
-.debug #ms-portfolio .col-12,.col-sm-6,.col-lg-4{
-    border:2px dashed;
-    background-color: blue;
-    min-height: 22.5rem;
-}
-.debug .ms-img-card{
-    background-color: green;
-    height: 100%;
-}
-.debug #ms-about .col-2,.col-1 {
-    border:2px dashed;
-    background-color: blue;
-    min-height: 2.1875rem;
-}
-.debug #ms-contact .col-2,.col-1 {
-    border:2px dashed;
-    background-color: blue;
-    min-height: 2.1875rem;
-}
-.debug .ms-footer-top .col-2.col-sm-3 {
-    border:2px dashed;
-    background-color: blue;
-    min-height: 3.875rem;
-}
 /* HEADER */
 header{
     background-color: var(--ms-primary-color);
@@ -84,6 +44,18 @@ header{
     max-width: 14.375rem;
     margin-left: auto;
     margin-right: auto;
+}
+#ms-hero h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.ms-lateral-col{
+    height: .3125rem;
+    background-color: white;
+    border-radius: .3125rem;
+}
+.ms-col-center{
+    font-size: 2.1875rem;
 }
 /* sezione ABOUT */
 #ms-about{
