@@ -51,11 +51,20 @@ header{
 }
 .ms-lateral-col{
     height: .3125rem;
-    background-color: white;
     border-radius: .3125rem;
 }
 .ms-col-center{
     font-size: 2.1875rem;
+}
+.white-dec{
+    background-color: white;
+}
+/* sezione PORTFOLIO */
+.black-dec{
+    background-color: black;
+}
+#ms-portfolio img{
+    border-radius: .625rem;
 }
 /* sezione ABOUT */
 #ms-about{
