@@ -20,26 +20,8 @@ header{
     left: 0;
     width: 100%;
 }
-.ms-main-nav{
-    list-style: none;  
-    display: flex;  
-    align-items: center;
-    margin: auto;
-    justify-content: center;
-}
-.ms-main-nav li{
-    padding: 0 .625rem;
-}
-.ms-main-nav a{
-    text-decoration: none;
-    color: inherit;
-}
-.ms-btn-primary{
-    border: .0625rem solid white;
-    color: #888888;
-    line-height: 0;
-    padding: .3125rem .625rem;
-    border-radius: .3125rem;
+.nav-link{
+    color: white;
 }
 /* sezione HERO */
 #ms-hero{
