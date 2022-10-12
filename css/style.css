@@ -19,6 +19,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 }
 .nav-link{
     color: white;
@@ -70,26 +71,24 @@ header{
 #ms-contact{
     background-color: #ffffff;
 }
-.ms-form{
-    list-style: none; 
-    font-size: 1.5625rem;
-    padding-bottom: 8.75rem;
-    border-bottom: 1px solid #cccccc;
-    padding-left: 0;
-    margin-left: 0;
+.ms-text-area.form-control{
+    min-height: 12.5rem;
 }
-.ms-form a{
-    text-decoration: none;
-    color: inherit;
+.form-control{
+    border:none;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 0;
+    min-height: 3.125rem;
 }
-.ms-form li:not(:last-child) {
-    border-bottom: 1px solid #cccccc;
+.form-floating label{
+    font-size: 1.125rem;
 }
 .ms-tertiary-btn{
     background-color: var(--ms-secondary-color);
     color: white;
     border: none;
     border-radius: .4375rem;
+    margin-right: auto;
 }
 /* FOOTER */
 footer{

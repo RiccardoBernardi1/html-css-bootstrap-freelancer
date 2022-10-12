@@ -126,29 +126,33 @@
                 <div class="container">
                     <h2 class="text-center">CONTACT ME</h2>
                     <!-- decorazioni -->
-                    <div class="row justify-content-center my-4">
-                        <div class="col-2"></div>
-                        <div class="col-1"></div>
-                        <div class="col-2"></div>
+                    <div class="row justify-content-center align-items-center mb-4">
+                        <div class="col-2 ms-lateral-col black-dec"></div>
+                        <div class="col-2 ms-col-center text-center"><i class="fa-solid fa-star"></i></div>
+                        <div class="col-2 ms-lateral-col black-dec"></div>
                     </div>
                     <!-- /decorazioni -->
                     <!-- contact form -->
                     <div class="row justify-content-center">
                         <div class="col-8">
-                            <ul class="ms-form">
-                                <li class="pb-4">
-                                    <a href="#">Name</a>
-                                </li>
-                                <li class="py-4">
-                                    <a href="#">Email Adress</a>
-                                </li>
-                                <li class="py-4">
-                                    <a href="#">Phone Number</a>
-                                </li>
-                                <li class="pt-4">
-                                    <a href="#">Message</a>
-                                </li>
-                            </ul>
+                            <form action="">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingName" placeholder="text">
+                                    <label for="floatingName">Name</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="floatingTel" placeholder="tel">
+                                    <label for="floatingTel">Phone Number</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text-area" class="form-control ms-text-area" id="floatingMessage" placeholder="text-area">
+                                    <label for="floatingMessage">Message</label>
+                                </div>
+                            </form>   
                         </div>
                     </div>
                     <!-- /contact form -->
